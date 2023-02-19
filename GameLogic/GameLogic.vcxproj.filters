@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Chapter1.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter2.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter4.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter5.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter7.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter8.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter9.cpp">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter.cpp">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ChapterBG.cpp">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="HellActor.cpp">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Demon.cpp">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter0_BG.cpp">
+      <Filter>Level2.3-Chapters\Chapter0</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue.cpp">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter0.cpp">
+      <Filter>Level2.3-Chapters\Chapter0</Filter>
+    </ClCompile>
+    <ClCompile Include="Openning.cpp">
+      <Filter>Level2.3-Chapters\Openning</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenningBG.cpp">
+      <Filter>Level2.3-Chapters\Openning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapter1.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter2.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter4.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter5.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter6.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter7.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter8.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter9.h">
+      <Filter>Level2.3-Chapters</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicEnum.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter.h">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ChapterBG.h">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="HellActor.h">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Demon.h">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter0_BG.h">
+      <Filter>Level2.3-Chapters\Chapter0</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Level2.2-HellActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue.h">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Level2.1-CustomizedClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter0.h">
+      <Filter>Level2.3-Chapters\Chapter0</Filter>
+    </ClInclude>
+    <ClInclude Include="Openning.h">
+      <Filter>Level2.3-Chapters\Openning</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenningBG.h">
+      <Filter>Level2.3-Chapters\Openning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Level2.1-CustomizedClass">
+      <UniqueIdentifier>{afaca5a3-4890-40c5-9f8b-83312276b9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{eb098235-1757-44d9-8820-420094dc6c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level2.2-HellActors">
+      <UniqueIdentifier>{ae05e461-1679-4a03-84c7-e009506163da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level2.3-Chapters">
+      <UniqueIdentifier>{0576460d-3ff2-4dc6-9141-95da5731b072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level2.3-Chapters\Chapter0">
+      <UniqueIdentifier>{531d1187-d905-460f-909f-d9b386ee4261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level2.3-Chapters\Openning">
+      <UniqueIdentifier>{308f61c2-71a1-414a-8a35-26b53d40d0b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

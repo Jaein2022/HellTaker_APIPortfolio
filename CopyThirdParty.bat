@@ -1,0 +1,1 @@
+XCOPY %~1\ThirdParty\%~2\%~3\FMOD\*.* %~1\build\%~2\%~3\ /y /d
