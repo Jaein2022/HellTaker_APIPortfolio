@@ -46,6 +46,10 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     J_LevelManager::GetInstance().CreateLevel<Chapter8>("Chapter8");
     J_LevelManager::GetInstance().CreateLevel<Chapter9>("Chapter9");
     
+#ifndef _DEBUG
+    ShowCursor(false);
+#endif
+   
     J_LevelManager::GetInstance().ChangeCurLevel("Openning");
     //J_LevelManager::GetInstance().ChangeCurLevel("Chapter9");
 

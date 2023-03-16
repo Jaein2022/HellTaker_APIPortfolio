@@ -17,7 +17,7 @@ AppFunctions::~AppFunctions()
 
 void AppFunctions::InitializeApp()
 {
-	std::string directoryName("API_Portfolio02");			//이 이름의 디렉토리를 자식으로 갖는 부모가 나올때까지 상위 디렉토리로 찾으면서 올라간다.
+	std::string directoryName("HellTaker_APIPortfolio");	//이 이름의 디렉토리를 자식으로 갖는 부모가 나올때까지 상위 디렉토리로 찾으면서 올라간다.
 	std::string imageDirectoryName("\\Images\\");			//이미지가 있는 디렉토리 이름과 그 경로.
 	std::string soundDirectoryName("\\Sounds\\");			//이미지가 있는 디렉토리 이름과 그 경로.
 	std::vector<std::string> allImageFileNames;					//불러올 모든 이미지 파일 이름 목록. 
