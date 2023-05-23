@@ -1,1 +1,2 @@
-XCOPY %~1\ThirdParty\%~2\%~3\FMOD\*.* %~1\build\%~2\%~3\ /y /d
+@ECHO OFF
+XCOPY %~1\ThirdParty\FMOD\Bin\%~3\*.* %~1\build\%~2\%~3\ /y /d

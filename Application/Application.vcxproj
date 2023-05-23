@@ -88,15 +88,15 @@
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IncludePath>$(SolutionDir)GameLogic\;$(SolutionDir)MainEngine\;$(SolutionDir)Basement\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)ThirdParty\Include\;</IncludePath>
-    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);</LibraryPath>
+    <IncludePath>$(SolutionDir)GameLogic\;$(SolutionDir)MainEngine\;$(SolutionDir)Basement\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)ThirdParty\FMOD\Include\;$(SolutionDir)build\$(Platform)\$(Configuration)\</IncludePath>
+    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(SolutionDir)build\$(Platform)\$(Configuration)\;$(WindowsSDK_LibraryPath_x64)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IncludePath>$(SolutionDir)GameLogic\;$(SolutionDir)MainEngine\;$(SolutionDir)Basement\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)ThirdParty\Include\;</IncludePath>
-    <LibraryPath>$(SolutionDir)ThirdParty\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);</LibraryPath>
+    <IncludePath>$(SolutionDir)GameLogic\;$(SolutionDir)MainEngine\;$(SolutionDir)Basement\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)ThirdParty\FMOD\Include\</IncludePath>
+    <LibraryPath>$(SolutionDir)build\$(Platform)\$(Configuration)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

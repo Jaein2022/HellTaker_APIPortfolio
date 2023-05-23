@@ -41,7 +41,7 @@ void J_Renderer::Animation::Update()
 		}
 		curDelay_ = delayEachFrame_[curIndex_ - startIndex_];
 	}
-	parentRenderer_->SetFrameIndex(curIndex_, pivot_);
+	parentRenderer_->SetFrameIndex(static_cast<int>(curIndex_), pivot_);
 	parentRenderer_->Render();
 }
 
@@ -298,7 +298,7 @@ int J_Renderer::GetCurFrame()
 		J_GameEngineDebug::AssertFalse("curAnimation is nullptr.");
 		return 0;
 	}
-	return curAnimation_->curIndex_;
+	return static_cast<int>(curAnimation_->curIndex_);
 }
 
 void J_Renderer::SetActorImage(const std::string& _imageName)

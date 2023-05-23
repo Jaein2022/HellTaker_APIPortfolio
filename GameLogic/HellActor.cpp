@@ -87,9 +87,10 @@ void HellActor::Move()
 	{
 		BeginMoving();
 
-		movedDistanceRatio_ += J_GameEngineTime::GetInstance().GetDeltaTimeF() * 10.0f/*속도*/;
+		movedDistanceRatio_ += J_GameEngineTime::GetInstance().GetDeltaTimeF() * 10.0f;
 		this->SetActorPos(
-			curTile_->GetActorPos() + (direction_ * 100.0f/*이동거리*/ * movedDistanceRatio_)
+			curTile_->GetActorPos() 
+			+ (direction_ * 100.0f * movedDistanceRatio_)
 		);
 
 		if (ActorType::HERO == myType_)
@@ -108,9 +109,11 @@ void HellActor::Move()
 		{
 			this->ChangeAnimation("moveL");
 		}
+
 		movedDistanceRatio_ += J_GameEngineTime::GetInstance().GetDeltaTimeF() * 10.0f/*속도*/;
-		this->SetActorPos(curTile_->GetActorPos() +
-			(direction_ * 100.0f/*이동거리*/ * movedDistanceRatio_)
+		this->SetActorPos(
+			curTile_->GetActorPos()
+			+ (direction_ * 100.0f/*이동거리*/ * movedDistanceRatio_)
 		);
 
 		if (ActorType::HERO == myType_)

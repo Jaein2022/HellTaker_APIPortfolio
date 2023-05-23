@@ -101,20 +101,20 @@ void Chapter0_BG::Start()
 	}
 
 	introductionFont_ = CreateFontA(	//폰트 생성 함수.
-		50,							//폰트 세로길이
-		20,							//폰트 폭. 
-		GM_ADVANCED,				//??
-		0,							//??
-		FW_ULTRABOLD,				//글씨 획 두께.
-		false,						//true면 글씨 기울임.
-		false,						//true면 글씨 밑줄.
-		false,						//true면 글씨 중간선(취소선).
-		DEFAULT_CHARSET,			//기본 영어 글자모음.
-		OUT_DEFAULT_PRECIS,			//??
-		CLIP_DEFAULT_PRECIS,		//??
-		CLEARTYPE_QUALITY,		//글씨 디테일 퀄리티. 
-		FIXED_PITCH,				//????
-		"Crimson Pro"				//폰트 이름.
+		50,								//폰트 세로길이
+		20,								//폰트 폭. 
+		GM_ADVANCED,					//??
+		0,								//??
+		FW_ULTRABOLD,					//글씨 획 두께.
+		false,							//true면 글씨 기울임.
+		false,							//true면 글씨 밑줄.
+		false,							//true면 글씨 중간선(취소선).
+		DEFAULT_CHARSET,				//기본 영어 글자모음.
+		OUT_DEFAULT_PRECIS,				//??
+		CLIP_DEFAULT_PRECIS,			//??
+		CLEARTYPE_QUALITY,				//글씨 디테일 퀄리티. 
+		FIXED_PITCH,					//????
+		"Crimson Pro"					//폰트 이름.
 	);
 	if (NULL == introductionFont_)	//폰트 생성 실패. 폭파.
 	{
@@ -245,7 +245,7 @@ void Chapter0_BG::Render()
 	//booper_Renderer_->UpdateAnimation();
 
 	HGDIOBJ tempHandle = SelectObject(backBufferHDC_, introductionFont_);
-	SetTextColor(backBufferHDC_, RGB(230, 77, 81));		//폰트 색 지정. 
+	SetTextColor(backBufferHDC_, RGB(230, 77, 81));							//폰트 색 지정. 
 	TextOutA(
 		backBufferHDC_,
 		960,

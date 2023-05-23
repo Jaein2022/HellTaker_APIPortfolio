@@ -267,24 +267,24 @@ void Hero::ChangeState()
 		return;
 	}
 
-	if (nullptr == destTile_->GetHellActor())
+	if (nullptr != destTile_->GetHellActor())
 	{
-		if (TileState::WALL == destTile_->GetTileState())
-		{
-			curState_ = HellActorState::IDLE;
-		}
-		else
+		--moveLimit_;
+		curState_ = HellActorState::PUSH;
+		parentChapter_->SwitchThornUpDown();
+	}
+	else
+	{
+		if (TileState::WALL != destTile_->GetTileState())
 		{
 			--moveLimit_;
 			parentChapter_->SwitchThornUpDown();
 			curState_ = HellActorState::MOVE;
 		}
-	}
-	else
-	{
-		--moveLimit_;
-		parentChapter_->SwitchThornUpDown();
-		curState_ = HellActorState::PUSH;
+		else
+		{
+			curState_ = HellActorState::IDLE;
+		}
 	}
 
 	if (0 < direction_.IntX())

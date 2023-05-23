@@ -24,9 +24,9 @@ class J_Renderer: public J_GameEngineNameBase
 	{
 		friend J_Renderer;
 
-		int startIndex_;				//애니메이션 시작 인덱스.
-		int finishIndex_;				//애니메이션 종료 인덱스.
-		int curIndex_;					//현재 프레임의 인덱스.
+		size_t startIndex_;				//애니메이션 시작 인덱스.
+		size_t finishIndex_;				//애니메이션 종료 인덱스.
+		size_t curIndex_;					//현재 프레임의 인덱스.
 		float curDelay_;				//
 		J_Renderer* parentRenderer_;	//이 애니메이션을 생성한 부모 렌더러.
 		J_ImageFile* animationImage_;		//애니메이션이 렌더하는 이미지.

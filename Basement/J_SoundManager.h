@@ -1,6 +1,12 @@
 #pragma once
-#include <FMOD/fmod.hpp>
-#pragma comment(lib, "FMOD\\fmod_vc.lib")		//릴리즈용으로 빌드된 코드.
+#include <fmod.hpp>
+
+#if _DEBUG
+#pragma comment(lib, "fmodL_vc.lib")	//디버그용 로그 파일을 생성하는 파일.  
+#else
+#pragma comment(lib, "fmod_vc.lib")		//릴리즈용으로 빌드된 파일.
+#endif
+
 #include "J_GameEngineDebug.h"
 #include <string>
 #include <map>
